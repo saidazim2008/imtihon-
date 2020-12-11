@@ -1,0 +1,209 @@
+@media (max-width: 1150px) {
+    .container {
+        width: 1000px;
+    }
+}
+@media (max-width: 1000px) {
+    .container {
+        width: 850px;
+    }
+    .header>.container{
+        flex-direction: column;
+    }
+    .header>.container>.header-list{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 850px) {
+    .container {
+        width: 768px;
+    }
+
+    .header>.container{
+        flex-direction: column;
+    }
+    .header>.container>.header-list{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header-subtext {
+        width: 80%;
+        flex-direction: column;
+        text-align: center;
+        margin: 40px auto;
+        text-align: center;
+    }
+    .header-texts{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    iframe {
+        width: 700px;
+        margin-top: 100px;
+    }
+    .posts-item {
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .posts-items {
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center
+    }
+    .posts-item>img {
+        margin-right: 0px;
+        margin: 0 auto;
+        }.posts-items>img {
+            margin-right: 0px;
+            margin: 0 auto;
+        }
+        .posts-item__subtext{
+            width: 100%;
+            text-align: center;
+            padding: 25px;
+        }
+        .form {
+            margin: 0 auto 0 120px;
+        }
+        .registration-title {
+            color: white;
+            margin: 0px auto 30px 20px;
+            text-align: center;
+            width:500px;
+        }
+
+        .footer-list {
+            width: 100%;
+            justify-content: space-between;
+            display: flex;
+        }
+    }
+    @media (max-width: 768px) {
+        .container {
+            width: 720px;
+        }
+        iframe {
+            width: 600px;
+            margin-top: 100px;
+        }
+    }
+    @media (max-width: 720px) {
+        .container {
+            width: 576px;
+        }
+        iframe {
+            width: 500px;
+            margin-top: 100px;
+        }
+        .footer-list {  
+            display: flex;
+            color: #fff;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 100%;
+            padding: 50px 0;
+            justify-content:space-around;
+        }
+        .footer-item:nth-child(1){
+            text-align: center;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+    @media (max-width: 576px) {
+        .container {
+            margin: 0px 0px;
+            width: 500px;
+        }
+        iframe {
+            width: 450px;
+            margin-top: 100px;
+        }
+        .registration {
+            width: 100%;
+        }
+        .footer-item:nth-child(1)  {
+            text-align: center;
+            width: 80%;
+            margin-bottom: 50px;
+        }
+        .registration-title{
+            text-align: center;
+            width: 70%;
+            margin: 0px auto 30px 0px;
+        }
+        .posts-title{
+            text-align: center;
+            width: 70%;
+            margin: 0px auto 30px 20px;
+        }  
+        .services-title {
+           text-align: center;
+           width: 70%;
+           margin: 0px auto 30px 40px;
+       }
+
+       .form {
+        margin: 0px auto 0px 0px;
+    }
+} @media (max-width: 400px) {
+        .container {
+            width: 300px;
+        }
+
+        .header-title{
+            margin-right:30px;
+            width:250px;
+        }
+
+        .header-paragraph {
+            width: 250px;
+            margin-right: 30px;
+        }
+
+        .header-button {
+            display: inline-block;
+            width: 200px; 
+            margin-left: 20px;
+        }
+
+        iframe {
+            width: 300px;
+            margin-top: 100px;
+        }
+        .registration {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .footer-item:nth-child(1)  {
+            text-align: center;
+            width: 80%;
+            margin-bottom: 50px;
+        }
+        .registration-title{
+            text-align: center;
+            width: 70%;
+            margin: 0px auto 30px 0px;
+        }
+        .posts-title{
+            text-align: center;
+            width: 300px;
+            margin: 0px auto 30px 20px;
+        }  
+        .services-title {
+           text-align: center;
+           width: 70%;
+           margin: 0px auto 30px 40px;
+       }
+
+       .form {
+        width: 250px;
+        margin-right: 120px;
+        border: 1px solid red;
+    }
+}
